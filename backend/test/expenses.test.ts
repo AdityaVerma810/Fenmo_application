@@ -1,6 +1,7 @@
 import request from "supertest";
 import path from "node:path";
 import fs from "node:fs/promises";
+import { describe, it, expect } from "vitest";
 import { createApp } from "../src/app.js";
 import { ExpenseStore } from "../src/storage.js";
 
